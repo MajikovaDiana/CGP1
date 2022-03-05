@@ -19,6 +19,7 @@
 .koniec {
     height: 2%;
     display: flex;
+    color: azure;
 }
 
 .navigacny_panel {
@@ -65,67 +66,6 @@ nav ul li a {
     flex-basis: 50%;
 }
 
-.zoznam {
-    transition: transform 0.5s;
-}
-
-.zoznam:hover {
-    transform: translateY(-5px);
-}
-
-.mriezka {
-    border-radius: 30px;
-    padding: 15px 25px;
-    display: block;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
-    background-position: center;
-    background-size: cover;
-    transition: transform 0.5s;
-}
-
-.mriezka1 {
-    background-image: url(../recources/vypredaj.png);
-    min-width: 25%;
-    min-height: 35%;
-}
-
-.mriezka2 {
-    background-image: url(../recources/maxresdefault.jpg);
-    min-width: 25%;
-    min-height: 35%;
-}
-
-.mriezka:hover {
-    transform: translateY(-5px);
-}
-
-h1 {
-    color: azure;
-    font-size: 50px;
-}
-
-p {
-    color:azure;
-    font-size: 11px;
-    line-height: 12px;
-    text-shadow: grey;
-}
-
-h2 {
-    color: azure;
-    font-size: 25px;
-}
-
-h5 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bolder;
-    color: rgb(255,255, 255);
-    font-size: 20px;
-    text-shadow: 0px 0px 5px rgb(0,0,0);
-}
-
 button {
     width: 250px;
     color: rgb(0,0,0);
@@ -143,6 +83,60 @@ button {
 
 button:hover {
     transform: translateY(-5px);
+}
+
+h1 {
+    color: azure;
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+}
+
+p {
+    color:azure;
+    font-size: 25px;
+    text-shadow: grey;
+}
+
+p1 {
+    color: azure;
+    font-size: 15px;
+    text-shadow: grey;
+}
+
+h2 {
+    color: azure;
+    font-size: 25px;
+}
+
+ul li {
+    color: azure;
+    list-style: none;
+    display: flexbox;
+    margin-left: 40px;
+}
+
+.staracena {
+    color: azure;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bolder;
+    text-decoration: line-through;
+    text-shadow: 2px 2px 3px rgb(136, 15, 136)
+}
+
+.novacena {
+    color: rgb(206, 7, 7);
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px rgb(136, 15, 136)
+}
+
+.koniec {
+    height: 2%;
+    display: flex;
+    font-size: 10px;
 }
 
 li a:link {
@@ -163,4 +157,17 @@ li a:focus {
 
 li a:active {
     color: rgb(65, 9, 110)
+}
+
+.zoznam {
+    transition: transform 0.5s;
+}
+
+.zoznam:hover {
+    transform: translateY(-5px);
+}
+
+.skalovatelne {
+    resize: both;
+    overflow: auto;
 }
