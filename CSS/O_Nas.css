@@ -68,6 +68,12 @@ p {
     text-align: center;
 }
 
+p2 {
+    color: rgb(50, 2, 59);
+    font-size: 15px;
+    text-shadow: grey;
+}
+
 .mriezka {
     display: flex;
     height: 10%;
