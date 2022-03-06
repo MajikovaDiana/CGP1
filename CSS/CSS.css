@@ -168,3 +168,24 @@ li a:active {
 a {
     text-decoration: none;
 }
+
+img {
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+img:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    color: azure;
+    font-family: BebasNeue;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px rgb(136, 15, 136)
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url(../FONT/BebasNeue\ Bold.otf);
+}

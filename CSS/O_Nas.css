@@ -311,3 +311,12 @@ li a:active {
 video {
     background-color: rgba(0,0,0,0.5);
 }
+
+img {
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+img:hover {
+    transform: translateY(-5px);
+}
