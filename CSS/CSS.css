@@ -7,7 +7,7 @@
 .kontajner {
     width: 100%;
     height: 100%;
-    background-image:  url(../recources/Snímka\ obrazovky\ 2022-03-05\ 120851.png);
+    background-image: linear-gradient(rgba(97, 27, 129, 0.459), rgba(97, 27, 129, 0.459)), url(../recources/Snímka\ obrazovky\ 2022-03-05\ 120851.png);
     background-position: center;
     background-position: cover;
     padding-left: 8%;
