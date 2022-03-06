@@ -244,6 +244,10 @@ fieldset {
     height: 100%;
 }
 
+h3 {
+    align-items: center;
+    color: azure;
+}
 .mriezka {
     border-radius: 30px;
     padding: 15px 25px;
@@ -302,4 +306,8 @@ li a:focus {
 
 li a:active {
     color: rgb(65, 9, 110)
+}
+
+video {
+    background-color: rgba(0,0,0,0.5);
 }
